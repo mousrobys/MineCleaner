@@ -1,0 +1,9 @@
+{
+	"required": true,
+	"package": "com.moysecamm.minecleaner.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"client": [],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

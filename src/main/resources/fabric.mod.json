@@ -1,0 +1,43 @@
+{
+	"schemaVersion": 1,
+	"id": "minecleaner",
+	"version": "${version}",
+	"name": "MineCleaner",
+	"description": "\u0423\u0434\u043e\u0431\u043d\u044b\u0439 \u0432\u044b\u0431\u043e\u0440 \u0438 \u0443\u0434\u0430\u043b\u0435\u043d\u0438\u0435 \u043c\u0438\u0440\u043e\u0432, \u0441\u0435\u0440\u0432\u0435\u0440\u043e\u0432, \u0440\u0435\u0441\u0443\u0440\u0441-\u043f\u0430\u043a\u043e\u0432 \u0438 \u0448\u0435\u0439\u0434\u0435\u0440-\u043f\u0430\u043a\u043e\u0432 (Iris) \u0441 \u043e\u0442\u043c\u0435\u0442\u043a\u0430\u043c\u0438 \u0433\u0430\u043b\u043e\u0447\u043a\u0430\u043c\u0438",
+	"authors": [
+		"moysecamm"
+	],
+	"contact": {
+		"homepage": "https://github.com/mousrobys/MineCleaner",
+		"sources": "https://github.com/mousrobys/MineCleaner",
+		"issues": "https://github.com/mousrobys/MineCleaner/issues"
+	},
+	"links": {
+		"YouTube": "https://youtube.com/@moysecamm?si=0waCqbQzvbF7Kx1z",
+		"Telegram": "https://t.me/canyramoysecamm"
+	},
+	"icon": "assets/minecleaner/icon.png",
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.moysecamm.minecleaner.MineCleanerMod"
+		],
+		"client": [
+			"com.moysecamm.minecleaner.client.MineCleanerClient"
+		]
+	},
+	"mixins": [
+		"minecleaner.mixins.json",
+		{
+			"config": "minecleaner.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
