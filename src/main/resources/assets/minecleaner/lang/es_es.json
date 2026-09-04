@@ -1,0 +1,15 @@
+{
+	"minecleaner.description": "Selecciona y elimina fácilmente mundos, servidores, paquetes de recursos y paquetes de shaders (Iris) con casillas de verificación",
+	"minecleaner.button.delete_selected": "Eliminar seleccionados",
+	"minecleaner.button.select_all": "Todos",
+	"minecleaner.confirm.title.world": "Eliminar mundos",
+	"minecleaner.confirm.message.world": "¿Seguro que quieres eliminar %s mundo(s)? ¡Esta acción no se puede deshacer!",
+	"minecleaner.confirm.title.server": "Eliminar servidores",
+	"minecleaner.confirm.message.server": "¿Seguro que quieres eliminar %s servidor(es)? ¡Esta acción no se puede deshacer!",
+	"minecleaner.confirm.title.pack": "Eliminar paquetes de recursos",
+	"minecleaner.confirm.message.pack": "¿Seguro que quieres eliminar %s paquete(s) de recursos? ¡Esta acción no se puede deshacer!",
+	"minecleaner.confirm.title.shader": "Eliminar paquetes de shaders",
+	"minecleaner.confirm.message.shader": "¿Seguro que quieres eliminar %s paquete(s) de shaders? ¡Esta acción no se puede deshacer!",
+	"minecleaner.confirm.yes": "Sí",
+	"minecleaner.confirm.no": "No"
+}

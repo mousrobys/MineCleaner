@@ -1,0 +1,15 @@
+{
+	"minecleaner.description": "Wygodny wybór i usuwanie światów, serwerów, paczek zasobów i paczek shaderów (Iris) za pomocą checkboxów",
+	"minecleaner.button.delete_selected": "Usuń zaznaczone",
+	"minecleaner.button.select_all": "Wszystkie",
+	"minecleaner.confirm.title.world": "Usuń światy",
+	"minecleaner.confirm.message.world": "Czy na pewno chcesz usunąć %s świat(y)? Tej operacji nie można cofnąć!",
+	"minecleaner.confirm.title.server": "Usuń serwery",
+	"minecleaner.confirm.message.server": "Czy na pewno chcesz usunąć %s serwer(y)? Tej operacji nie można cofnąć!",
+	"minecleaner.confirm.title.pack": "Usuń paczki zasobów",
+	"minecleaner.confirm.message.pack": "Czy na pewno chcesz usunąć %s paczki(e) zasobów? Tej operacji nie można cofnąć!",
+	"minecleaner.confirm.title.shader": "Usuń paczki shaderów",
+	"minecleaner.confirm.message.shader": "Czy na pewno chcesz usunąć %s paczki(e) shaderów? Tej operacji nie można cofnąć!",
+	"minecleaner.confirm.yes": "Tak",
+	"minecleaner.confirm.no": "Nie"
+}

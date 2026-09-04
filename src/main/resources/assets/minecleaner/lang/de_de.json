@@ -1,0 +1,15 @@
+{
+	"minecleaner.description": "Praktisches Auswählen und Löschen von Welten, Servern, Ressourcenpaketen und Shaderpaketen (Iris) mit Häkchen",
+	"minecleaner.button.delete_selected": "Ausgewählte löschen",
+	"minecleaner.button.select_all": "Alle",
+	"minecleaner.confirm.title.world": "Welten löschen",
+	"minecleaner.confirm.message.world": "Möchtest du wirklich %s Welt(en) löschen? Dies kann nicht rückgängig gemacht werden!",
+	"minecleaner.confirm.title.server": "Server löschen",
+	"minecleaner.confirm.message.server": "Möchtest du wirklich %s Server löschen? Dies kann nicht rückgängig gemacht werden!",
+	"minecleaner.confirm.title.pack": "Ressourcenpakete löschen",
+	"minecleaner.confirm.message.pack": "Möchtest du wirklich %s Ressourcenpaket(e) löschen? Dies kann nicht rückgängig gemacht werden!",
+	"minecleaner.confirm.title.shader": "Shaderpakete löschen",
+	"minecleaner.confirm.message.shader": "Möchtest du wirklich %s Shaderpaket(e) löschen? Dies kann nicht rückgängig gemacht werden!",
+	"minecleaner.confirm.yes": "Ja",
+	"minecleaner.confirm.no": "Nein"
+}

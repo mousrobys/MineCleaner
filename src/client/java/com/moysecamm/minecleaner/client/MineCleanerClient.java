@@ -157,7 +157,7 @@ public class MineCleanerClient implements ClientModInitializer {
         }
 
         Button mine = Button.builder(
-                Component.literal("\u0423\u0434\u0430\u043b\u0438\u0442\u044c \u0432\u044b\u0431\u0440\u0430\u043d\u043d\u044b\u0435"), b -> {
+                Component.translatable("minecleaner.button.delete_selected"), b -> {
             if (selected.isEmpty()) {
                 var opt = listW.getSelectedOpt();
                 if (opt.isPresent()) {
@@ -174,7 +174,7 @@ public class MineCleanerClient implements ClientModInitializer {
 
         EditBox search = (EditBox) getField(wsSearchField, ws);
         if (search != null) {
-            addWidget(ws, Checkbox.builder(Component.literal("\u0412\u0441\u0435"), Minecraft.getInstance().font)
+            addWidget(ws, Checkbox.builder(Component.translatable("minecleaner.button.select_all"), Minecraft.getInstance().font)
                     .pos(search.getX() + search.getWidth() + 4, search.getY() + (search.getHeight() - 14) / 2)
                     .onValueChange((cb, val) -> {
                         selected.clear();
@@ -216,7 +216,7 @@ public class MineCleanerClient implements ClientModInitializer {
         }
 
         Button mine = Button.builder(
-                Component.literal("\u0423\u0434\u0430\u043b\u0438\u0442\u044c \u0432\u044b\u0431\u0440\u0430\u043d\u043d\u044b\u0435"), b -> {
+                Component.translatable("minecleaner.button.delete_selected"), b -> {
             if (!selected.isEmpty()) {
                 DeletionHelper.confirmAndDeleteServers(js, selected);
             }
@@ -245,7 +245,7 @@ public class MineCleanerClient implements ClientModInitializer {
         if (listP == null) return;
 
         addWidget(ps, Button.builder(
-                Component.literal("\u0423\u0434\u0430\u043b\u0438\u0442\u044c \u0432\u044b\u0431\u0440\u0430\u043d\u043d\u044b\u0435"), btn -> {
+                Component.translatable("minecleaner.button.delete_selected"), btn -> {
             if (!selected.isEmpty()) {
                 DeletionHelper.confirmAndDeletePacks(ps, psAvailableField, selected);
             }
@@ -279,7 +279,7 @@ public class MineCleanerClient implements ClientModInitializer {
             if (shaderList == null) return;
 
             addWidget(screen, Button.builder(
-                    Component.literal("\u0423\u0434\u0430\u043b\u0438\u0442\u044c \u0432\u044b\u0431\u0440\u0430\u043d\u043d\u044b\u0435"), btn -> {
+                    Component.translatable("minecleaner.button.delete_selected"), btn -> {
                 if (!selected.isEmpty()) {
                     DeletionHelper.confirmAndDeleteShaders(screen, shaderList, selected, shaderPackEntryClass);
                 }

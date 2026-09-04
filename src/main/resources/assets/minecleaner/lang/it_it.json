@@ -1,0 +1,15 @@
+{
+	"minecleaner.description": "Seleziona e cancella facilmente mondi, server, pacchetti di risorse e pacchetti shader (Iris) con le caselle di spunta",
+	"minecleaner.button.delete_selected": "Elimina selezionati",
+	"minecleaner.button.select_all": "Tutti",
+	"minecleaner.confirm.title.world": "Elimina mondi",
+	"minecleaner.confirm.message.world": "Sei sicuro di voler eliminare %s mondo/i? Questa azione è irreversibile!",
+	"minecleaner.confirm.title.server": "Elimina server",
+	"minecleaner.confirm.message.server": "Sei sicuro di voler eliminare %s server? Questa azione è irreversibile!",
+	"minecleaner.confirm.title.pack": "Elimina pacchetti di risorse",
+	"minecleaner.confirm.message.pack": "Sei sicuro di voler eliminare %s pacchetto/i di risorse? Questa azione è irreversibile!",
+	"minecleaner.confirm.title.shader": "Elimina pacchetti shader",
+	"minecleaner.confirm.message.shader": "Sei sicuro di voler eliminare %s pacchetto/i shader? Questa azione è irreversibile!",
+	"minecleaner.confirm.yes": "Sì",
+	"minecleaner.confirm.no": "No"
+}

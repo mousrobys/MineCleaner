@@ -1,0 +1,15 @@
+{
+	"minecleaner.description": "Зручний вибір і видалення світів, серверів, ресурс-паків і шейдер-паків (Iris) за допомогою галочок",
+	"minecleaner.button.delete_selected": "Видалити вибрані",
+	"minecleaner.button.select_all": "Усі",
+	"minecleaner.confirm.title.world": "Видалити світи",
+	"minecleaner.confirm.message.world": "Ви впевнені, що хочете видалити %s світ(ів)? Цю дію неможливо скасувати!",
+	"minecleaner.confirm.title.server": "Видалити сервери",
+	"minecleaner.confirm.message.server": "Ви впевнені, що хочете видалити %s сервер(ів)? Цю дію неможливо скасувати!",
+	"minecleaner.confirm.title.pack": "Видалити ресурс-паки",
+	"minecleaner.confirm.message.pack": "Ви впевнені, що хочете видалити %s ресурс-пак(ів)? Цю дію неможливо скасувати!",
+	"minecleaner.confirm.title.shader": "Видалити шейдер-паки",
+	"minecleaner.confirm.message.shader": "Ви впевнені, що хочете видалити %s шейдер-пак(ів)? Цю дію неможливо скасувати!",
+	"minecleaner.confirm.yes": "Так",
+	"minecleaner.confirm.no": "Ні"
+}

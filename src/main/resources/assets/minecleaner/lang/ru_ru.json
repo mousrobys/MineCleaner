@@ -1,0 +1,15 @@
+{
+	"minecleaner.description": "Удобный выбор и удаление миров, серверов, ресурс-паков и шейдер-паков (Iris) с отметками галочками",
+	"minecleaner.button.delete_selected": "Удалить выбранные",
+	"minecleaner.button.select_all": "Все",
+	"minecleaner.confirm.title.world": "Удалить миры",
+	"minecleaner.confirm.message.world": "Вы уверены, что хотите удалить %s мир(а)? Это действие необратимо!",
+	"minecleaner.confirm.title.server": "Удалить серверы",
+	"minecleaner.confirm.message.server": "Вы уверены, что хотите удалить %s сервер(а)? Это действие необратимо!",
+	"minecleaner.confirm.title.pack": "Удалить ресурс-паки",
+	"minecleaner.confirm.message.pack": "Вы уверены, что хотите удалить %s ресурс-пак(ов)? Это действие необратимо!",
+	"minecleaner.confirm.title.shader": "Удалить шейдер-паки",
+	"minecleaner.confirm.message.shader": "Вы уверены, что хотите удалить %s шейдер-пак(ов)? Это действие необратимо!",
+	"minecleaner.confirm.yes": "Да",
+	"minecleaner.confirm.no": "Нет"
+}

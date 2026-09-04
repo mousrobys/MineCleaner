@@ -1,0 +1,15 @@
+{
+	"minecleaner.description": "Easily select and delete worlds, servers, resource packs, and shader packs (Iris) with checkboxes",
+	"minecleaner.button.delete_selected": "Delete Selected",
+	"minecleaner.button.select_all": "All",
+	"minecleaner.confirm.title.world": "Delete Worlds",
+	"minecleaner.confirm.message.world": "Are you sure you want to delete %s world(s)? This cannot be undone!",
+	"minecleaner.confirm.title.server": "Delete Servers",
+	"minecleaner.confirm.message.server": "Are you sure you want to delete %s server(s)? This cannot be undone!",
+	"minecleaner.confirm.title.pack": "Delete Resource Packs",
+	"minecleaner.confirm.message.pack": "Are you sure you want to delete %s resource pack(s)? This cannot be undone!",
+	"minecleaner.confirm.title.shader": "Delete Shader Packs",
+	"minecleaner.confirm.message.shader": "Are you sure you want to delete %s shader pack(s)? This cannot be undone!",
+	"minecleaner.confirm.yes": "Yes",
+	"minecleaner.confirm.no": "No"
+}

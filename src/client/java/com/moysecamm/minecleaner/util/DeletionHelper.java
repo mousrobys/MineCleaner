@@ -35,11 +35,10 @@ public class DeletionHelper {
                     }
                     Minecraft.getInstance().setScreenAndShow(screen);
                 },
-                Component.literal("\u0423\u0434\u0430\u043b\u0438\u0442\u044c \u043c\u0438\u0440\u044b"),
-                Component.literal("\u0412\u044b \u0443\u0432\u0435\u0440\u0435\u043d\u044b, \u0447\u0442\u043e \u0445\u043e\u0442\u0438\u0442\u0435 \u0443\u0434\u0430\u043b\u0438\u0442\u044c " + count
-                        + " \u043c\u0438\u0440(\u0430)? \u042d\u0442\u043e \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435 \u043d\u0435\u043e\u0431\u0440\u0430\u0442\u0438\u043c\u043e!"),
-                Component.literal("\u0414\u0430"),
-                Component.literal("\u041d\u0435\u0442")
+                Component.translatable("minecleaner.confirm.title.world"),
+                Component.translatable("minecleaner.confirm.message.world", count),
+                Component.translatable("minecleaner.confirm.yes"),
+                Component.translatable("minecleaner.confirm.no")
         ));
     }
 
@@ -124,11 +123,10 @@ public class DeletionHelper {
                     }
                     Minecraft.getInstance().setScreenAndShow(screen);
                 },
-                Component.literal("\u0423\u0434\u0430\u043b\u0438\u0442\u044c \u0441\u0435\u0440\u0432\u0435\u0440\u044b"),
-                Component.literal("\u0412\u044b \u0443\u0432\u0435\u0440\u0435\u043d\u044b, \u0447\u0442\u043e \u0445\u043e\u0442\u0438\u0442\u0435 \u0443\u0434\u0430\u043b\u0438\u0442\u044c " + count
-                        + " \u0441\u0435\u0440\u0432\u0435\u0440(\u0430)? \u042d\u0442\u043e \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435 \u043d\u0435\u043e\u0431\u0440\u0430\u0442\u0438\u043c\u043e!"),
-                Component.literal("\u0414\u0430"),
-                Component.literal("\u041d\u0435\u0442")
+                Component.translatable("minecleaner.confirm.title.server"),
+                Component.translatable("minecleaner.confirm.message.server", count),
+                Component.translatable("minecleaner.confirm.yes"),
+                Component.translatable("minecleaner.confirm.no")
         ));
     }
 
@@ -214,11 +212,10 @@ public class DeletionHelper {
                     }
                     Minecraft.getInstance().setScreenAndShow(screen);
                 },
-                Component.literal("\u0423\u0434\u0430\u043b\u0438\u0442\u044c \u043f\u0430\u043a\u0438"),
-                Component.literal("\u0412\u044b \u0443\u0432\u0435\u0440\u0435\u043d\u044b, \u0447\u0442\u043e \u0445\u043e\u0442\u0438\u0442\u0435 \u0443\u0434\u0430\u043b\u0438\u0442\u044c " + count
-                        + " \u043f\u0430\u043a(\u043e\u0432)? \u042d\u0442\u043e \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435 \u043d\u0435\u043e\u0431\u0440\u0430\u0442\u0438\u043c\u043e!"),
-                Component.literal("\u0414\u0430"),
-                Component.literal("\u041d\u0435\u0442")
+                Component.translatable("minecleaner.confirm.title.pack"),
+                Component.translatable("minecleaner.confirm.message.pack", count),
+                Component.translatable("minecleaner.confirm.yes"),
+                Component.translatable("minecleaner.confirm.no")
         ));
     }
 
@@ -288,11 +285,10 @@ public class DeletionHelper {
                     }
                     Minecraft.getInstance().setScreenAndShow(screen);
                 },
-                Component.literal("\u0423\u0434\u0430\u043b\u0438\u0442\u044c \u0448\u0435\u0439\u0434\u0435\u0440-\u043f\u0430\u043a\u0438"),
-                Component.literal("\u0412\u044b \u0443\u0432\u0435\u0440\u0435\u043d\u044b, \u0447\u0442\u043e \u0445\u043e\u0442\u0438\u0442\u0435 \u0443\u0434\u0430\u043b\u0438\u0442\u044c " + count
-                        + " \u0448\u0435\u0439\u0434\u0435\u0440-\u043f\u0430\u043a(\u0430)? \u042d\u0442\u043e \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435 \u043d\u0435\u043e\u0431\u0440\u0430\u0442\u0438\u043c\u043e!"),
-                Component.literal("\u0414\u0430"),
-                Component.literal("\u041d\u0435\u0442")
+                Component.translatable("minecleaner.confirm.title.shader"),
+                Component.translatable("minecleaner.confirm.message.shader", count),
+                Component.translatable("minecleaner.confirm.yes"),
+                Component.translatable("minecleaner.confirm.no")
         ));
     }
 

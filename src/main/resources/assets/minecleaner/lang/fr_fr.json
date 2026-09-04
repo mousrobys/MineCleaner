@@ -1,0 +1,15 @@
+{
+	"minecleaner.description": "Sélectionnez et supprimez facilement mondes, serveurs, packs de ressources et packs de shaders (Iris) avec des cases à cocher",
+	"minecleaner.button.delete_selected": "Supprimer la sélection",
+	"minecleaner.button.select_all": "Tout",
+	"minecleaner.confirm.title.world": "Supprimer les mondes",
+	"minecleaner.confirm.message.world": "Êtes-vous sûr de vouloir supprimer %s monde(s) ? Cette action est irréversible !",
+	"minecleaner.confirm.title.server": "Supprimer les serveurs",
+	"minecleaner.confirm.message.server": "Êtes-vous sûr de vouloir supprimer %s serveur(s) ? Cette action est irréversible !",
+	"minecleaner.confirm.title.pack": "Supprimer les packs de ressources",
+	"minecleaner.confirm.message.pack": "Êtes-vous sûr de vouloir supprimer %s pack(s) de ressources ? Cette action est irréversible !",
+	"minecleaner.confirm.title.shader": "Supprimer les packs de shaders",
+	"minecleaner.confirm.message.shader": "Êtes-vous sûr de vouloir supprimer %s pack(s) de shaders ? Cette action est irréversible !",
+	"minecleaner.confirm.yes": "Oui",
+	"minecleaner.confirm.no": "Non"
+}
