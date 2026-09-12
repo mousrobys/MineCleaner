@@ -8,64 +8,86 @@
 
 **MineCleaner** — удобный мод для Minecraft (Fabric), который позволяет быстро выбирать и удалять миры, серверы, ресурс-паки и шейдер-паки (Iris) прямо из игрового меню с помощью галочек.
 
-## ✨ Возможности
+**MineCleaner** is a handy Fabric mod for Minecraft that lets you quickly select and delete worlds, servers, resource packs and shader packs (Iris) right from the in-game menus using checkboxes.
 
-- ✅ **Миры** — массовый выбор и удаление миров галочками (несколько за раз)
+## ✨ Возможности / Features
+
+**Русский**
+- ✅ **Миры** — массовый выбор и удаление миров галочками (несколько за раз), сортировка по дате или имени
 - ✅ **Серверы** — удаление сразу нескольких серверов
 - ✅ **Ресурс-паки** — удаление ненужных ресурс-паков
 - ✅ **Шейдер-паки (Iris)** — удаление шейдеров
-- ✅ Кнопка **«Удалить выбранные»** и кнопка **«Все»** для быстрого выбора
-- ✅ **Полная локализация** — интерфейс автоматически меняется на язык игры (русский, английский, немецкий, французский, испанский, итальянский, украинский, польский и др.)
-- ✅ Видимые галочки у каждой строки списка
+- ✅ **Меню настроек** (клавиша **K** или кнопка «Настройки» на экране миров): включение/выключение галочек для каждого раздела
+- ✅ **Интеграция с Mod Menu** — настройки открываются с карточки мода
+- ✅ **Горячие клавиши**: **Ctrl+A** — выделить всё, **Shift+клик** — выделить диапазон
+- ✅ **Размеры** — размер миров и ресурс-паков в списке + суммарный размер выбранного на кнопке удаления
+- ✅ Кнопки **«Удалить выбранные»** и **«Все»**
+- ✅ **Полная локализация** — автоматически меняется на язык игры (13 языков + режим «язык игры»)
 
-## ⚙️ Требования
+**English**
+- ✅ **Worlds** — bulk select and delete worlds with checkboxes, sort by date or by name
+- ✅ **Servers** — delete multiple servers at once
+- ✅ **Resource packs** — delete unwanted resource packs
+- ✅ **Shader packs (Iris)** — delete shaders
+- ✅ **Settings screen** (key **K** or the "Settings" button on the Worlds screen): toggle checkboxes per section
+- ✅ **Mod Menu integration** — open settings from the mod's card in Mod Menu
+- ✅ **Hotkeys**: **Ctrl+A** to select all, **Shift+click** to select a range
+- ✅ **Sizes** — size shown in worlds and resource packs lists, plus total size of the selection on the delete button
+- ✅ **Delete Selected** and **Select All** buttons
+- ✅ **Full localization** — follows the game language (13 languages + "game language" mode)
+
+## ⚙️ Требования / Requirements
 
 - Minecraft **26.2**
 - [Fabric Loader](https://fabricmc.net/use/) **0.19.3+**
 - [Fabric API](https://modrinth.com/mod/fabric-api)
-- [Iris](https://irisshaders.github.io/) (только для удаления шейдер-паков)
+- [Mod Menu](https://modrinth.com/mod/modmenu) (необязательно / optional)
+- [Iris](https://irisshaders.github.io/) (только для удаления шейдер-паков / shader deletion only)
 - Java **25**
 
-## 📥 Установка
+## 📥 Установка / Installation
 
-1. Скачайте последнюю версию мода в разделе [Releases](https://github.com/mousrobys/MineCleaner/releases)
-2. Скопируйте файл `minecleaner-*.jar` в папку `mods` вашего экземпляра Minecraft
-3. Запустите игру через Fabric
-4. Откройте нужное меню (миры / серверы / ресурс-паки / шейдеры) и удаляйте с галочками
+1. Скачайте последнюю версию мода в разделе [Releases](https://github.com/mousrobys/MineCleaner/releases) / Download the latest mod version from [Releases](https://github.com/mousrobys/MineCleaner/releases)
+2. Скопируйте файл `minecleaner-*.jar` в папку `mods` вашего экземпляра Minecraft / Copy `minecleaner-*.jar` into your Minecraft instance's `mods` folder
+3. Запустите игру через Fabric / Launch the game with Fabric
+4. Откройте нужное меню (миры / серверы / ресурс-паки / шейдеры) и удаляйте с галочками / Open the desired screen (worlds / servers / resource packs / shaders) and delete with checkboxes
 
-> ⚠️ **Внимание:** удаление необратимо. Файлы удаляются с диска. Будьте осторожны!
+> ⚠️ **Внимание / Warning:** удаление необратимо. Файлы удаляются с диска. Будьте осторожны! / Deletion is permanent — files are removed from disk. Be careful!
 
-## 🖱️ Использование
+## 🖱️ Использование / Usage
 
-| Меню | Что делает |
-|------|------------|
-| Выбор мира | Галочка «Все» + галочки у миров, кнопка «Удалить выбранные» |
-| Серверы | Галочки у серверов, кнопка «Удалить выбранные» |
-| Ресурс-паки | Галочки у пакетов, кнопка «Удалить выбранные» |
-| Шейдер-паки (Iris) | Галочки у шейдеров, кнопка «Удалить выбранные» |
+| Меню / Screen | RU | EN |
+|------|------------|------------|
+| Миры / Worlds | Галочка «Все» + Ctrl+A, Shift+клик — диапазон, сортировка | Select All + Ctrl+A, Shift+click — range, sorting |
+| Серверы / Servers | Галочки у серверов, Ctrl+A | Checkboxes per server, Ctrl+A |
+| Ресурс-паки / Resource packs | Галочки у пакетов, Ctrl+A | Checkboxes per pack, Ctrl+A |
+| Шейдер-паки / Shader packs (Iris) | Галочки у шейдеров, Ctrl+A | Checkboxes per shader, Ctrl+A |
 
-## 🛠️ Сборка из исходников
+- **Настройки / Settings**: клавиша **K** / key **K**, либо кнопка «Настройки», либо Mod Menu.
+- **Сортировка миров / World sorting**: в настройках — по дате или по имени / in settings — by date or by name.
+
+## 🛠️ Сборка из исходников / Building from source
 
 ```bash
 # Windows (PowerShell)
-$env:JAVA_HOME = "путь_к_jdk25"
+$env:JAVA_HOME = "путь_к_jdk25" # path to JDK 25
 .\gradlew.bat build
 ```
 
-Готовый jar появится в `build/libs/`.
+Готовый jar появится в `build/libs/`. / The built jar lands in `build/libs/`.
 
-## 🗂️ Структура проекта
+## 🗂️ Структура проекта / Project structure
 
 ```
 src/
-├── main/java/com/moysecamm/minecleaner/   — общий код (загрузка мода)
-├── main/resources/                        — fabric.mod.json, иконка
-└── client/java/com/moysecamm/minecleaner/ — клиентский код (Gui, логика)
+├── main/java/com/moysecamm/minecleaner/   — общий код (загрузка мода) / common code (mod loading)
+├── main/resources/                        — fabric.mod.json, иконка / icon, lang files
+└── client/java/com/moysecamm/minecleaner/ — клиентский код (Gui, логика) / client code (GUI, logic)
 ```
 
-## 🌍 Локализация
+## 🌍 Локализация / Localization
 
-Интерфейс мода **полностью локализован** и автоматически подстраивается под язык Minecraft. Поддерживаемые языки:
+Интерфейс мода **полностью локализован** и автоматически подстраивается под язык Minecraft (или используется «язык игры» — язык самого клиента). / The mod UI is **fully localized** and automatically follows the Minecraft language (or the "game language" — the client's own language).
 
 - 🇷🇺 Русский (ru_ru)
 - 🇬🇧 English (en_us)
@@ -75,9 +97,14 @@ src/
 - 🇮🇹 Italiano (it_it)
 - 🇺🇦 Українська (uk_ua)
 - 🇵🇱 Polski (pl_pl)
+- 🇧🇷 Português (BR) (pt_br)
+- 🇯🇵 日本語 (ja_jp)
+- 🇨🇳 简体中文 (zh_cn)
+- 🇰🇷 한국어 (ko_kr)
+- 🇹🇷 Türkçe (tr_tr)
 
-Если языка нет в списке, используется английский.
+Если языка нет в списке, используется язык игры / английский. / If a language is missing, the game language / English is used.
 
-## 📄 Лицензия
+## 📄 Лицензия / License
 
 Проект распространяется под лицензией [MIT](LICENSE).
