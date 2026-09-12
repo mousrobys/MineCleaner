@@ -1,5 +1,6 @@
 package com.moysecamm.minecleaner.util;
 
+import com.moysecamm.minecleaner.client.MineCleanerConfig;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.screens.ConfirmScreen;
 import net.minecraft.client.gui.screens.Screen;
@@ -8,7 +9,6 @@ import net.minecraft.client.gui.screens.packs.TransferableSelectionList;
 import net.minecraft.client.gui.screens.worldselection.SelectWorldScreen;
 import net.minecraft.client.gui.screens.worldselection.WorldSelectionList;
 import net.minecraft.client.multiplayer.ServerList;
-import net.minecraft.network.chat.Component;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
@@ -35,10 +35,10 @@ public class DeletionHelper {
                     }
                     Minecraft.getInstance().setScreenAndShow(screen);
                 },
-                Component.translatable("minecleaner.confirm.title.world"),
-                Component.translatable("minecleaner.confirm.message.world", count),
-                Component.translatable("minecleaner.confirm.yes"),
-                Component.translatable("minecleaner.confirm.no")
+                MineCleanerConfig.text("minecleaner.confirm.title.world"),
+                MineCleanerConfig.text("minecleaner.confirm.message.world", count),
+                MineCleanerConfig.text("minecleaner.confirm.yes"),
+                MineCleanerConfig.text("minecleaner.confirm.no")
         ));
     }
 
@@ -123,10 +123,10 @@ public class DeletionHelper {
                     }
                     Minecraft.getInstance().setScreenAndShow(screen);
                 },
-                Component.translatable("minecleaner.confirm.title.server"),
-                Component.translatable("minecleaner.confirm.message.server", count),
-                Component.translatable("minecleaner.confirm.yes"),
-                Component.translatable("minecleaner.confirm.no")
+                MineCleanerConfig.text("minecleaner.confirm.title.server"),
+                MineCleanerConfig.text("minecleaner.confirm.message.server", count),
+                MineCleanerConfig.text("minecleaner.confirm.yes"),
+                MineCleanerConfig.text("minecleaner.confirm.no")
         ));
     }
 
@@ -212,10 +212,10 @@ public class DeletionHelper {
                     }
                     Minecraft.getInstance().setScreenAndShow(screen);
                 },
-                Component.translatable("minecleaner.confirm.title.pack"),
-                Component.translatable("minecleaner.confirm.message.pack", count),
-                Component.translatable("minecleaner.confirm.yes"),
-                Component.translatable("minecleaner.confirm.no")
+                MineCleanerConfig.text("minecleaner.confirm.title.pack"),
+                MineCleanerConfig.text("minecleaner.confirm.message.pack", count),
+                MineCleanerConfig.text("minecleaner.confirm.yes"),
+                MineCleanerConfig.text("minecleaner.confirm.no")
         ));
     }
 
@@ -285,10 +285,10 @@ public class DeletionHelper {
                     }
                     Minecraft.getInstance().setScreenAndShow(screen);
                 },
-                Component.translatable("minecleaner.confirm.title.shader"),
-                Component.translatable("minecleaner.confirm.message.shader", count),
-                Component.translatable("minecleaner.confirm.yes"),
-                Component.translatable("minecleaner.confirm.no")
+                MineCleanerConfig.text("minecleaner.confirm.title.shader"),
+                MineCleanerConfig.text("minecleaner.confirm.message.shader", count),
+                MineCleanerConfig.text("minecleaner.confirm.yes"),
+                MineCleanerConfig.text("minecleaner.confirm.no")
         ));
     }
 

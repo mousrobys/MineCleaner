@@ -25,6 +25,9 @@
 		],
 		"client": [
 			"com.moysecamm.minecleaner.client.MineCleanerClient"
+		],
+		"modmenu": [
+			"com.moysecamm.minecleaner.client.MineCleanerModMenuIntegration"
 		]
 	},
 	"mixins": [

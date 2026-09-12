@@ -11,5 +11,18 @@
 	"minecleaner.confirm.title.shader": "Удалить шейдер-паки",
 	"minecleaner.confirm.message.shader": "Вы уверены, что хотите удалить %s шейдер-пак(ов)? Это действие необратимо!",
 	"minecleaner.confirm.yes": "Да",
-	"minecleaner.confirm.no": "Нет"
+	"minecleaner.confirm.no": "Нет",
+	"minecleaner.settings.title": "Настройки MineCleaner",
+	"minecleaner.settings.open": "Настройки",
+	"minecleaner.settings.worlds": "Показывать галочки у миров",
+	"minecleaner.settings.servers": "Показывать галочки у серверов",
+	"minecleaner.settings.packs": "Показывать галочки у ресурс-паков",
+	"minecleaner.settings.shaders": "Показывать галочки у шейдер-паков",
+	"minecleaner.settings.language": "Язык",
+	"minecleaner.settings.sort": "Сортировка миров",
+	"minecleaner.sort.date": "По дате",
+	"minecleaner.sort.name": "По имени",
+	"minecleaner.settings.system": "Язык игры",
+	"minecleaner.settings.done": "Готово",
+	"key.minecleaner.settings": "Открыть настройки MineCleaner"
 }

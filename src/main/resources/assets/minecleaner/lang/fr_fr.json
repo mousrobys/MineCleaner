@@ -11,5 +11,18 @@
 	"minecleaner.confirm.title.shader": "Supprimer les packs de shaders",
 	"minecleaner.confirm.message.shader": "Êtes-vous sûr de vouloir supprimer %s pack(s) de shaders ? Cette action est irréversible !",
 	"minecleaner.confirm.yes": "Oui",
-	"minecleaner.confirm.no": "Non"
+	"minecleaner.confirm.no": "Non",
+	"minecleaner.settings.title": "Paramètres de MineCleaner",
+	"minecleaner.settings.open": "Paramètres",
+	"minecleaner.settings.worlds": "Afficher les cases pour les mondes",
+	"minecleaner.settings.servers": "Afficher les cases pour les serveurs",
+	"minecleaner.settings.packs": "Afficher les cases pour les packs de ressources",
+	"minecleaner.settings.shaders": "Afficher les cases pour les packs de shaders",
+	"minecleaner.settings.language": "Langue",
+	"minecleaner.settings.sort": "Tri des mondes",
+	"minecleaner.sort.date": "Par date",
+	"minecleaner.sort.name": "Par nom",
+	"minecleaner.settings.system": "Langue du jeu",
+	"minecleaner.settings.done": "Terminé",
+	"key.minecleaner.settings": "Ouvrir les paramètres de MineCleaner"
 }

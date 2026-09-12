@@ -11,5 +11,18 @@
 	"minecleaner.confirm.title.shader": "Delete Shader Packs",
 	"minecleaner.confirm.message.shader": "Are you sure you want to delete %s shader pack(s)? This cannot be undone!",
 	"minecleaner.confirm.yes": "Yes",
-	"minecleaner.confirm.no": "No"
+	"minecleaner.confirm.no": "No",
+	"minecleaner.settings.title": "MineCleaner Settings",
+	"minecleaner.settings.open": "Settings",
+	"minecleaner.settings.worlds": "Show checkboxes for worlds",
+	"minecleaner.settings.servers": "Show checkboxes for servers",
+	"minecleaner.settings.packs": "Show checkboxes for resource packs",
+	"minecleaner.settings.shaders": "Show checkboxes for shader packs",
+	"minecleaner.settings.language": "Language",
+	"minecleaner.settings.sort": "World sorting",
+	"minecleaner.sort.date": "By date",
+	"minecleaner.sort.name": "By name",
+	"minecleaner.settings.system": "Game language",
+	"minecleaner.settings.done": "Done",
+	"key.minecleaner.settings": "Open MineCleaner Settings"
 }

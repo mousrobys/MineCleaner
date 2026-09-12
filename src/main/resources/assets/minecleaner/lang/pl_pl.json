@@ -11,5 +11,18 @@
 	"minecleaner.confirm.title.shader": "Usuń paczki shaderów",
 	"minecleaner.confirm.message.shader": "Czy na pewno chcesz usunąć %s paczki(e) shaderów? Tej operacji nie można cofnąć!",
 	"minecleaner.confirm.yes": "Tak",
-	"minecleaner.confirm.no": "Nie"
+	"minecleaner.confirm.no": "Nie",
+	"minecleaner.settings.title": "Ustawienia MineCleaner",
+	"minecleaner.settings.open": "Ustawienia",
+	"minecleaner.settings.worlds": "Pokaż pola wyboru na światach",
+	"minecleaner.settings.servers": "Pokaż pola wyboru na serwerach",
+	"minecleaner.settings.packs": "Pokaż pola wyboru na paczkach zasobów",
+	"minecleaner.settings.shaders": "Pokaż pola wyboru na paczkach shaderów",
+	"minecleaner.settings.language": "Język",
+	"minecleaner.settings.sort": "Sortowanie światów",
+	"minecleaner.sort.date": "Według daty",
+	"minecleaner.sort.name": "Według nazwy",
+	"minecleaner.settings.system": "Język gry",
+	"minecleaner.settings.done": "Gotowe",
+	"key.minecleaner.settings": "Otwórz ustawienia MineCleaner"
 }

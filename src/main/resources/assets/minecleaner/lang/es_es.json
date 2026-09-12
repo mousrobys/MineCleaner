@@ -11,5 +11,18 @@
 	"minecleaner.confirm.title.shader": "Eliminar paquetes de shaders",
 	"minecleaner.confirm.message.shader": "¿Seguro que quieres eliminar %s paquete(s) de shaders? ¡Esta acción no se puede deshacer!",
 	"minecleaner.confirm.yes": "Sí",
-	"minecleaner.confirm.no": "No"
+	"minecleaner.confirm.no": "No",
+	"minecleaner.settings.title": "Ajustes de MineCleaner",
+	"minecleaner.settings.open": "Ajustes",
+	"minecleaner.settings.worlds": "Mostrar casillas en los mundos",
+	"minecleaner.settings.servers": "Mostrar casillas en los servidores",
+	"minecleaner.settings.packs": "Mostrar casillas en los paquetes de recursos",
+	"minecleaner.settings.shaders": "Mostrar casillas en los paquetes de shaders",
+	"minecleaner.settings.language": "Idioma",
+	"minecleaner.settings.sort": "Orden de mundos",
+	"minecleaner.sort.date": "Por fecha",
+	"minecleaner.sort.name": "Por nombre",
+	"minecleaner.settings.system": "Idioma del juego",
+	"minecleaner.settings.done": "Hecho",
+	"key.minecleaner.settings": "Abrir ajustes de MineCleaner"
 }
